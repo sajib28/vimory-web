@@ -12,6 +12,8 @@ import Effect from './components/Effect';
 //import PhotoEdit from './components/PhotoEdit';
 import Slide from './components/Slide';
 import SliderCom from './components/SliderCom';
+import AccordionCom from './components/AccordionCom';
+
 //import Filter from './components/Filter';
 //import Frame from './components/Frame';
 //import GetToday from './components/GetToday';
@@ -29,6 +31,7 @@ function App() {
       <Effect/>
       <Slide/>
       <SliderCom/>
+      <AccordionCom/>
       {/* <Templates/> */}
     </div>
   );
