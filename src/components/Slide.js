@@ -8,12 +8,12 @@ class Slide extends Component {
         return (
             <section id="Slide">
                 <div id="SlideBg" className="photo-area">
-                    <div class="pic-overlay"></div>
-                    <div class="container">
+                    <div className="pic-overlay"></div>
+                    <div className="container">
                         <div className="row">
-                            <div class="col-md-12">
-                                <div class="title">
-                                    <div class="title-inner">
+                            <div className="col-md-12">
+                                <div className="title">
+                                    <div className="title-inner">
                                     <h2>Slide</h2>
                                     </div>
                                 </div>
@@ -22,14 +22,14 @@ class Slide extends Component {
                     </div>
                 </div>
                 <div className="content-area">
-                    <div class="container">
+                    <div className="container">
                         <div className="row">
                             <div className="photo-content">
-                                <div class="col-md-7">
-                                    <h3 className="wow slideInLeft">Slide</h3>
+                                <div className="col-md-7">
+                                    <h3 className="wow fadeInUp" data-wow-iteration="1">Slide</h3>
                                     <p>Vimory understands your need for animation slides to create looping slideshow video moments. Select a video animation slide that suits your needs and the story you want to give an impact.Try it now and share it with your friends.</p>
                                 </div>
-                                <div class="col-md-5">
+                                <div className="col-md-5">
                                     <div className="mobile-frame">
                                         <img src="" alt="" />
                                         <div className="mobile-frame-content">

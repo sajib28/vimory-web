@@ -5,7 +5,7 @@ class Templates extends Component {
         return (
             // Start Template Section
             <div>
-            <section id="template" class="photo-area">
+            <section id="template" className="photo-area">
                 <div className="pic-overlay"></div>
                 <div className="container">
                     <div className="col-md-12">

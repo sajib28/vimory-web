@@ -2,10 +2,11 @@ import React from 'react';
 //import './assets/css/bootstrap-grid.min.css';
 import './assets/css/bootstrap.min.css';
 import './assets/css/animate.min.css';
+import './assets/css/circle.css';
+
 //import './assets/fontAwesome/css/fontawesome.min.css';
 //import './assets/fontAwesome/css/all.min.css';
 import './assets/scss/main.css';
-import Header from './components/Header';
 import Welcome from './components/Welcome';
 import Templates from './components/Templates';
 import Effect from './components/Effect';
@@ -21,11 +22,12 @@ import AccordionCom from './components/AccordionCom';
 import WOW from 'wowjs';
 function App() {
  
-    new WOW.WOW().init();
-
+  new WOW.WOW({
+    live: false
+}).init();
   return (
     <div className="App">
-    <Header/>
+    
       <Welcome/>
       <Templates/>
       <Effect/>

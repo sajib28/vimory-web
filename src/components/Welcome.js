@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from './Header';
 import appleStore from '../assets/img/apple-app-store.png';
 import googlePlay from '../assets/img/apple-app-store.png';
 
@@ -7,6 +8,8 @@ class Welcome extends Component {
 
         return (
             // Start Intro Section 
+            <div>
+            <Header/>
             <section id="intro" className="back-img">
                 <div className="container">
                     <div className="col-md-8">
@@ -26,6 +29,7 @@ class Welcome extends Component {
                     </div>
                 </div>
             </section>
+            </div>
             // End Intro Section
         );
     }
