@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/sajib28/vimory-web/static/css/main.37b98864.chunk.css",
-    "main.js": "/sajib28/vimory-web/static/js/main.79f1d1e6.chunk.js",
-    "main.js.map": "/sajib28/vimory-web/static/js/main.79f1d1e6.chunk.js.map",
-    "runtime~main.js": "/sajib28/vimory-web/static/js/runtime~main.84c59ae6.js",
-    "runtime~main.js.map": "/sajib28/vimory-web/static/js/runtime~main.84c59ae6.js.map",
-    "static/css/2.2ae15bd3.chunk.css": "/sajib28/vimory-web/static/css/2.2ae15bd3.chunk.css",
-    "static/js/2.9676c0fa.chunk.js": "/sajib28/vimory-web/static/js/2.9676c0fa.chunk.js",
-    "static/js/2.9676c0fa.chunk.js.map": "/sajib28/vimory-web/static/js/2.9676c0fa.chunk.js.map",
-    "index.html": "/sajib28/vimory-web/index.html",
-    "precache-manifest.b27a1733506340d02c47170805f9d863.js": "/sajib28/vimory-web/precache-manifest.b27a1733506340d02c47170805f9d863.js",
-    "service-worker.js": "/sajib28/vimory-web/service-worker.js",
-    "static/css/2.2ae15bd3.chunk.css.map": "/sajib28/vimory-web/static/css/2.2ae15bd3.chunk.css.map",
-    "static/css/main.37b98864.chunk.css.map": "/sajib28/vimory-web/static/css/main.37b98864.chunk.css.map",
-    "static/media/main.css": "/sajib28/vimory-web/static/media/template-bg.9057f668.jpg",
-    "static/media/slick-theme.css": "/sajib28/vimory-web/static/media/slick.f97e3bbf.svg"
+    "main.css": "/vimory-web/static/css/main.da438c49.chunk.css",
+    "main.js": "/vimory-web/static/js/main.b859f97e.chunk.js",
+    "main.js.map": "/vimory-web/static/js/main.b859f97e.chunk.js.map",
+    "runtime~main.js": "/vimory-web/static/js/runtime~main.af8c2dd2.js",
+    "runtime~main.js.map": "/vimory-web/static/js/runtime~main.af8c2dd2.js.map",
+    "static/css/2.38a01fbb.chunk.css": "/vimory-web/static/css/2.38a01fbb.chunk.css",
+    "static/js/2.9676c0fa.chunk.js": "/vimory-web/static/js/2.9676c0fa.chunk.js",
+    "static/js/2.9676c0fa.chunk.js.map": "/vimory-web/static/js/2.9676c0fa.chunk.js.map",
+    "index.html": "/vimory-web/index.html",
+    "precache-manifest.37c282bdb28a759efa47574563b7be8b.js": "/vimory-web/precache-manifest.37c282bdb28a759efa47574563b7be8b.js",
+    "service-worker.js": "/vimory-web/service-worker.js",
+    "static/css/2.38a01fbb.chunk.css.map": "/vimory-web/static/css/2.38a01fbb.chunk.css.map",
+    "static/css/main.da438c49.chunk.css.map": "/vimory-web/static/css/main.da438c49.chunk.css.map",
+    "static/media/main.css": "/vimory-web/static/media/template-bg.9057f668.jpg",
+    "static/media/slick-theme.css": "/vimory-web/static/media/slick.f97e3bbf.svg"
   }
 }
