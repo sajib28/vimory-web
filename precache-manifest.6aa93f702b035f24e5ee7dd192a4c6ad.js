@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fa308f356ae00acaf070e2ffe2dda60",
+    "revision": "9215ac20cd3d43cfddb40d449d59bdfe",
     "url": "/vimory-web/index.html"
   },
   {
-    "revision": "5ca10c7c7841e4323464",
-    "url": "/vimory-web/static/css/2.38a01fbb.chunk.css"
+    "revision": "1e49cc74a2abdccd1670",
+    "url": "/vimory-web/static/css/2.5ebaa55e.chunk.css"
   },
   {
-    "revision": "9ed9241f381cc53c7851",
+    "revision": "723c3080043cdb06a678",
     "url": "/vimory-web/static/css/main.da438c49.chunk.css"
   },
   {
-    "revision": "5ca10c7c7841e4323464",
-    "url": "/vimory-web/static/js/2.9676c0fa.chunk.js"
+    "revision": "1e49cc74a2abdccd1670",
+    "url": "/vimory-web/static/js/2.f474260e.chunk.js"
   },
   {
-    "revision": "9ed9241f381cc53c7851",
-    "url": "/vimory-web/static/js/main.b859f97e.chunk.js"
+    "revision": "723c3080043cdb06a678",
+    "url": "/vimory-web/static/js/main.60466ea1.chunk.js"
   },
   {
     "revision": "727c903ffb130adc3f72",

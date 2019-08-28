@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vimory-web/precache-manifest.37c282bdb28a759efa47574563b7be8b.js"
+  "/vimory-web/precache-manifest.6aa93f702b035f24e5ee7dd192a4c6ad.js"
 );
 
 self.addEventListener('message', (event) => {
