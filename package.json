@@ -2,7 +2,7 @@
   "name": "vimory-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/sajib28/vimory-web",
+  "homepage": "https://sajib28.github.io/vimory-web",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",

@@ -1,23 +1,30 @@
 import React, { Component } from 'react';
-import {Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import ModalCom from './modal/ModalCom';
+import { Navbar, Nav, NavDropdown, Button, ButtonToolbar } from 'react-bootstrap';
 class Templates extends Component {
+    constructor(props) {
+        super(props);
+        this.state = { deps: [], addModalShow: false }
+    }
     render() {
+        let addModalClose = () => this.setState({ addModalShow: false });
+        // const [modalShow, setModalShow] = React.useState(false);
         return (
             // Start Template Section
             <div>
-            <section id="template" className="photo-area">
-                <div className="pic-overlay"></div>
-                <div className="container">
-                    <div className="col-md-12">
-                        <div className="title">
-                            <div className="title-inner">
-                                <h2>Templates</h2>
+                <section id="template" className="photo-area">
+                    <div className="pic-overlay"></div>
+                    <div className="container">
+                        <div className="col-md-12">
+                            <div className="title">
+                                <div className="title-inner">
+                                    <h2>Templates</h2>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            
+                </section>
+
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -40,8 +47,19 @@ class Templates extends Component {
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-                </div>
-    // End Template Section
+
+                <ButtonToolbar>
+                    <Button  onClick={() => this.setState({ addModalShow: true })}>
+                        Launch vertically centered modal
+                </Button>
+
+                    <ModalCom
+                        show={this.state.addModalShow}
+                        onHide={addModalClose}
+                    />
+                </ButtonToolbar>
+            </div>
+            // End Template Section
         );
     }
 }
